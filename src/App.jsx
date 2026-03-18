@@ -169,11 +169,26 @@ export default function App() {
       `}</style>
 
       <header style={{ marginBottom: "20px" }}>
-        <h1 style={{ fontSize: "2rem", fontWeight: "800", color: "#38bdf8", margin: 0 }}>
+        <h1 style={{ fontSize: "2.2rem", fontWeight: "700", color: "#38bdf8", fontFamily: '"KaTeX_Main", serif'}}>
           Falkner–Skan Explorer
         </h1>
         <p style={{ color: "#94a3b8", margin: 0 }}>Similarity Solutions for Boundary Layers</p>
       </header>
+
+      <div style={{
+        marginTop: "10px",
+        padding: "10px",
+        background: "#020617",
+        borderRadius: "10px",
+        fontFamily: '"KaTeX_Math", serif',
+        fontSize: "1.1rem",
+        textAlign: "center"
+        }}>
+          f''' + f f'' + β(1 − f'²) = 0
+          <div style={{ fontSize: "0.85rem", color: "#94a3b8", marginTop: "4px" }}>
+            f(0)=0, f'(0)=0, f'(∞)=1
+        </div>
+      </div>
 
       <div style={{ display: "flex", flex: 1, gap: "20px", width: "100%" }}>
 
