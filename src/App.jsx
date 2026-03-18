@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useRef, useEffect } from "react";
+import 'katex/dist/katex.min.css';
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, Legend, ReferenceLine,
@@ -159,7 +160,7 @@ export default function App() {
       margin: 0,
       padding: "20px",
       boxSizing: "border-box",
-      fontFamily: "system-ui",
+      fontFamily: '"KaTeX_Main", "KaTeX_Math", serif',
       display: "flex",
       flexDirection: "column"
     }}>
