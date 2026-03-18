@@ -324,6 +324,17 @@ export default function App() {
           </div>
         </div>
       </div>
+      <footer style={{
+        marginTop: "30px",
+        paddingTop: "10px",
+        borderTop: "1px solid #1e293b",      
+        textAlign: "center",
+        fontSize: "0.8rem",
+        color: "#64748b"
+        fontFamily: '"KaTeX_Main", serif'
+      }}>
+        © {new Date().getFullYear()} Md Ar Rafi. All rights reserved. 
+      </footer>
     </div>
   );
 }
